@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.bg-1 , .bg-2,.bg-3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.65;
+}
+
+.bg-1{
+    height: 100%;
+    background-image: url('img/img_parallax.jpg');
+}
+
+.bg-2{
+    background-image: url('img/img_parallax2.jpg');
+    height: 400px;
+}
+
+.bg-3{
+    background-image: url('img/img_parallax3.jpg');
+    height: 400px;
+}
+
+.caption{
+    top:50%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color:white;
+}
+
+.caption span{
+    background-color: black;
+    padding:25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.box{
+    padding: 50px 70px;   
+    text-align: justify;
+}
+
+.box h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content{
+    background-color: #282E34;
+    color:#DDDDDD;
+    padding: 50px 80px;
+}
+
+.bg-3 div, .bg-2 div{
+    top:50%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color:white;
+}   
+
+.bg-3 div span, .bg-2 div span{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
